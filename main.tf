@@ -13,7 +13,7 @@ Name="terra_instance"
 }
 
 resource "aws_s3_bucket" "one" {  
-bucket = "teju-bucket"
+bucket = "teju87899-bucket"
 }
 
 resource "aws_ebs_volume" "two" {
