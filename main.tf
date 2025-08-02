@@ -7,7 +7,7 @@ secret_key= "86JqdXXVYFUsHTKdtx97rc0eeMRcGODznZt6V1KY"
 resource "aws_instance" "one" {
 ami= "ami-0d0ad8bb301edb745"
 instance_type = "t2.medium"
-tage {
+tags= {
 Name="terra_instance"
 }
 }
