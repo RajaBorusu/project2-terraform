@@ -12,6 +12,14 @@ Name="terra_instance"
 }
 }
 
+resource "aws_instance" "haha" {
+ami= "ami-0d0ad8bb301edb745"
+instance_type = "t2.medium"
+tags= {
+Name="burra_instance"
+}
+}
+
 resource "aws_s3_bucket" "one" {  
 bucket = "teju87899-bucket"
 }
